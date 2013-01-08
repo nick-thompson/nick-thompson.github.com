@@ -3,7 +3,7 @@ layout: post
 title: "Sidechaining with AudioParams"
 date: 2012-11-8 12:32
 comments: true
-categories: web-audio, javascript
+categories: web-audio javascript
 ---
 
 When I first dove into the Web Audio API, one of the things I quickly overlooked

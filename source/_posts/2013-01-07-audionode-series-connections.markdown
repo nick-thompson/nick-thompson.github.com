@@ -3,7 +3,7 @@ layout: post
 title: "AudioNode Series Connections"
 date: 2013-01-07 17:56
 comments: true
-categories: web-audio, javascript
+categories: web-audio javascript
 ---
 
 If you find yourself playing around with the Web Audio API frequently enough, you may have come to a point where you have an array of AudioNodes that need to be connected in series.
