@@ -10,13 +10,13 @@ body {
   margin: 0;
   padding: 0;
   font: 400 16px/26px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fbfbfb;
 }
 
 .wrapper {
   position: relative;
-  top: 30%;
+  top: 25%;
   background-color: #444;
-  color: #fbfbfb;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
   box-shadow: 0px 0px 8px 0px #111;
@@ -27,14 +27,20 @@ body {
   padding: 40px;
 }
 
+strong {
+  color: #fbfbfb;
+}
+
 .center {
   text-align: center;
 }
 
 .headshot {
-  width: 110px;
-  -webkit-border-radius: 55px;
-  border-radius: 55px;
+  margin-top: 20px;
+  width: 120px;
+  border: 1px solid #222;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
   background-clip: padding-box;
 }
 
