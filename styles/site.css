@@ -1,6 +1,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 
+html, body {
+  height: 100%;
+}
+
 body {
   background: url('/images/bg.png');
   margin: 0;
@@ -9,18 +13,28 @@ body {
 }
 
 .wrapper {
+  position: relative;
+  top: 30%;
   background-color: #444;
   color: #fbfbfb;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+  box-shadow: 0px 0px 8px 0px #111;
+  -webkit-box-shadow: 0px 0px 8px 0px #111;
 }
 
 .content {
-  padding: 20px;
+  padding: 40px;
+}
+
+.center {
+  text-align: center;
 }
 
 .headshot {
-  width: 100px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
+  width: 110px;
+  -webkit-border-radius: 55px;
+  border-radius: 55px;
   background-clip: padding-box;
 }
 
