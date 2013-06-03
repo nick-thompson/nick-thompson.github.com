@@ -17,6 +17,13 @@ body {
   padding: 20px;
 }
 
+.headshot {
+  width: 100px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background-clip: padding-box;
+}
+
 .links a {
   color: #39afcd;
   text-decoration: none;
