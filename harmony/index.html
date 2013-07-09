@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Simple Harmonic Synthesis</title>
+    <style type="text/css">
+      html, body {
+        height: 100%;
+        width: 100%;
+        padding: 40px 0 0 0;
+        margin: 0;
+        color: #333;
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+        text-align:center;
+      }
+
+      p {
+        width: 600px;
+        margin: 0px auto;
+        margin-bottom: 20px;
+      }
+
+      a:link,
+      a:visited,
+      a:focus {
+        padding: 20px;
+        font: inherit;
+        font-size: .8em;
+        text-decoration: none;
+        color: #fd2567;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      canvas {
+        display: block;
+        margin: 50px auto;
+        -webkit-box-shadow: 0 0 8px #888;
+        -moz-box-shadow: 0 0 8px #888;
+        box-shadow: 0 0 8px #888;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      A simple sine-based harmonic synthesizer experiment using the Web Audio API. Draw
+      on the canvas to assign harmonic volume levels (top half of the graph), and
+      phase shift amounts (bottom half of the graph), then play sounds with your
+      keyboard.
+    </p>
+    <p>
+      <a href="http://www.github.com/nick-thompson/harmony">http://www.github.com/nick-thompson/harmony</a>
+    </p>
+    <script type="text/javascript" src="lib/midikeys.js"></script>
+    <script type="text/javascript" src="lib/synth.js"></script>
+  </body>
+</html>

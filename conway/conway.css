@@ -1,0 +1,46 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: #333;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  text-align:center;
+}
+
+.docs {
+  margin-left: 10px;
+  color: #777777;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: normal;
+  /* font-style: italic; */
+  position: absolute;
+  display: block;
+  text-align: center;
+  top: 680px;
+  width: 150px;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.header {
+  width: 400px;
+  display: block;
+  margin: 50px auto;
+  margin-bottom: 0;
+}
+
+a:link,
+a:visited {
+  font-size: 14px;
+  font-family: serif;
+  color: #9fe9fc;
+  text-decoration: none;
+}
+
+canvas {
+  margin-top: 50px;
+}
+
