@@ -1,0 +1,62 @@
+
+@import url(http://fonts.googleapis.com/css?family=Vollkorn);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+// Digerati Color Scheme
+// https://kuler.adobe.com/Digerati-color-theme-231178/
+
+$grey: #52656B;
+$pink: #FF3B77;
+$green: #CDFF00;
+$white: #FFFFFF;
+$tan: #B8B89F;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font: 400 20px/30px 'Vollkorn', serif;
+  color: $grey;
+}
+
+.container {
+  margin-top: 120px;
+}
+
+h1 {
+  border-top: 5px solid $grey;
+  font: 300 82px/1 'Vollkorn', serif;
+  letter-spacing: -1px;
+  color: $grey;
+
+  .name {
+    position: relative;
+    top: -45px;
+    margin: 0px !important;
+    padding-right: 10px;
+    background-color: $white;
+  }
+}
+
+h3 {
+  font: 300 28px/1 'Vollkorn', serif;
+  letter-spacing: -1px;
+  color: $grey;
+}
+
+p {
+  color: $grey;
+}
+
+a:link,
+a:visited,
+a:active {
+  font: 400 20px/1 'Open Sans', sans-serif;
+  text-decoration: none;
+  letter-spacing: -1px;
+  color: $pink;
+}
+
+a:hover {
+  text-decoration: underline;
+}
